@@ -65,6 +65,8 @@ public class ChineseRemainderTheorem {
             System.out.print("Remainder " + (i + 1) + ": ");
             rem[i] = scanner.nextLong();
         }
+
+        System.out.println("-------");
         
         long result = chineseRem(num, rem);
         System.out.println("The solution to the congruences is: " + result);
